@@ -114,7 +114,8 @@ if __name__ == '__main__':
         children_file = base_dir + "children.csv"
         path_ground_file = base_dir + 'sample_ground_grouped.csv'
 
-    path_datasets = "datasets\\" '''remerber to change also str_app_path = .....
+    path_datasets = "datasets\\" 
+    '''remerber to change also str_app_path = .....
     Indeed this variable will be interested for each changment in the path_datasets '''
 
     #output
