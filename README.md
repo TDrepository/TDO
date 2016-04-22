@@ -2,8 +2,8 @@
 
 Author:
 	- Valentina Beretta
+	
 Co-authors:
-
 	- Sebastien Harispe
 	- Sylvie Ranwez
 	- Isabelle Mougenot
