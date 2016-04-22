@@ -78,88 +78,30 @@ def loading_ancestors(path_ancestor_file):
         print("No ancestor file")
         return None
 
-def loading_descendents(path_ancestor_file):
+def loading_descendents(path_file):
     try:
         descendents = dict()
 
          #with open(path_ancestor_file, newline='') as csvfile_ancestor:
-        with open(path_ancestor_file, "r", encoding='utf-8') as file:
+        with open(path_file, "r", encoding='utf-8') as reader:
             #header
-            file.readline()
-            for row in file:
-                 #no header this file
-                 #key = row['value']
-                 #line_anc = (row['ancestors']).replace(';http', '_____http')
-                row = row.strip()
-                data = row.split('\t')
-                value = data[0]
-                value_desc = (data[1])[2:-2].split("', '")
-                descendents[value] = value_desc
-
-        return descendents
-    except :
-        print("No descendent file")
-        return None
-
-def loading_descendants_exclusive_fileformat2(path_file):
-    try:
-        descendents = dict()
-
-         #with open(path_ancestor_file, newline='') as csvfile_ancestor:
-        with open(path_file, newline='', encoding='utf-8') as reader:
-             #readerAncestor = csv.DictReader(csvfile_ancestor, delimiter='\t')
-            #togli per heuristic tr
-             reader.readline()
-             for row in reader:
-
-                 row = row.strip()
-                 data = row.split('\t')
-                 key = data[0]
-                 line_desc = (data[1]).replace(';http', '_____http')
-                 values = line_desc.split('_____')
-                 set_values = set(values)
-                 set_values.remove(key)
-                 descendents[key] = set_values
-
-        return descendents
-    except :
-        print("No descendents file")
-        return None
-
-def loading_descendants_fileformat2(path_file):
-    try:
-        descendents = dict()
-
-         #with open(path_ancestor_file, newline='') as csvfile_ancestor:
-        with open(path_file, newline='', encoding='utf-8') as reader:
-             #readerAncestor = csv.DictReader(csvfile_ancestor, delimiter='\t')
-            #togli per heuristic tr
-             reader.readline()
-             for row in reader:
-                row = row.strip()
-                data = row.split('\t')
-                key = data[0]
-                line_desc = (data[1]).replace(';http', '_____http')
-                values = line_desc.split('_____')
-                descendents[key] = set(values)
-
-        return descendents
-    except :
-        print("No descendents file")
-        return None
-
-def loading_descendents_no_header(path_ancestor_file):
-    try:
-        descendents = dict()
-        with open(path_ancestor_file, "r", encoding='utf-8') as file:
-
-            for row in file:
-                row = row.strip()
-                data = row.split('\t')
-                value = data[0]
-                line_anc = (data[1]).replace(';http', '_____http')
-                values = line_anc.split('_____')
-                descendents[value] = set(values)
+            row = reader.readline()
+            row = row.strip()
+            if row.split('\t')[2] == 'format_1':
+                for row in reader:
+                    row = row.strip()
+                    data = row.split('\t')
+                    key = data[0]
+                    value_desc = (data[1])[2:-2].split("', '")
+                    descendents[key] = set(value_desc)
+            else:
+                for row in reader:
+                    row = row.strip()
+                    data = row.split('\t')
+                    key = data[0]
+                    line_desc = (data[1]).replace(';http', '_____http')
+                    values = line_desc.split('_____')
+                    descendents[key] = set(values)
 
         return descendents
     except :
