@@ -8,6 +8,9 @@ Co-authors:
  - Sylvie Ranwez
  - Isabelle Mougenot
 
+TDO library permits to (i) generate sythetic dataset; (ii) test the traditional and adapted Sums approach [....]
+
+
 For repeat the experiments you have to follow the following steps:
 
  - make sure that "Pyhton 3.5" is installed on your computer and use it to run the .py files 
