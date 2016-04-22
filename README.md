@@ -1,5 +1,13 @@
 # TDO - Truth-Discovery with Ontology
 
+Author:
+	- Valentina Beretta
+Co-authors:
+
+	- Sebastien Harispe
+	- Sylvie Ranwez
+	- Isabelle Mougenot
+
 For repeat the experiments you have to follow the following steps:
 
  - make sure that "Pyhton 3.5" is installed on your computer and use it to run the .py files 
@@ -20,3 +28,5 @@ OUTPUT files:
    You have to write the following command line
 		> python output_results.py results_dir
    where results_dir is the parameter that contains the path where the results you want to summarize are stored.
+
+Dataset generation datails will be added.[**]
