@@ -1,12 +1,12 @@
 # TDO - Truth-Discovery with Ontology
 
 Author:
-	- Valentina Beretta
+ - Valentina Beretta
 	
 Co-authors:
-	- Sebastien Harispe
-	- Sylvie Ranwez
-	- Isabelle Mougenot
+ - Sebastien Harispe
+ - Sylvie Ranwez
+ - Isabelle Mougenot
 
 For repeat the experiments you have to follow the following steps:
 
