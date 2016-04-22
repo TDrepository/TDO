@@ -1,4 +1,3 @@
-import log_file
 
 class ValueConfidenceInfo:
 
