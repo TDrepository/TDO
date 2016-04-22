@@ -1,3 +1,4 @@
+import log_file
 
 class ValueConfidenceInfo:
 
@@ -106,7 +107,6 @@ def load_facts(facts_file, header):
             if not( v in sources_dataItemValues[d]): sources_dataItemValues[d][v]  = set()
             sources_dataItemValues[d][v].add(s)
 
-    log_file.log("Load " + str(fact_cont) + " facts")
     return sources_dataItemValues
 
 def load_facts_with_ids(facts_file, header, dataitem_ids):
