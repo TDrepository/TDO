@@ -1,2 +1,2 @@
-# WIMS_2016
+# TDO - Truth-Discovery with Ontology
 test repo
