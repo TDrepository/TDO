@@ -168,7 +168,7 @@ if __name__ == '__main__':
                 # output file paths
                 if "UNI" in root:
                     #str_app_path extract the number of the dataset
-                    str_app_path = root.replace( path_datasets + "\\UNI\\dataset", "")
+                    str_app_path = root.replace( path_datasets + "UNI\\dataset", "")
                     main_results_dir = "results\\results_" + str(model_name) + "/" + "datasetUNI"  + str(str_app_path) + "/"
 
                 if "EXP" in root:
