@@ -13,15 +13,15 @@ TDO library permits to (i) generate sythetic dataset; (ii) test the traditional 
 
 For repeat the experiments you have to follow the following steps:
 
- - make sure that "Pyhton 3.5" is installed on your computer and use it to run the .py files 
+ - make sure that "Pyhton 3.4" is installed on your computer and use it to run the .py files 
  
 ##INPUTs:
- - download the datasets at https://dx.doi.org/10.6084/m9.figshare.3393706 and put the folder in the folder named "datasets" of the project
- - download the required file wims folder at https://dx.doi.org/10.6084/m9.figshare.3393817 and put the folder in the folder named "data" of the project
+ - download the datasets at https://dx.doi.org/10.6084/m9.figshare.3393706, unzip the archive and put the folder contained the dataset that you want analyze (you can choose one predicate dataset at time) in the empty project folder named "datasets"
+ - download the required file wims folder at https://dx.doi.org/10.6084/m9.figshare.3393817, unzip the archive and put it in the folder named "data" of the project
 
  
 ##RUN the experiments
- - open the terminal and move in the "source_code" folder in the project
+ - open the terminal and move in the "source_code" folder contained in the main project folder
  - write the following command line
 	> python Main_experiments.py name_predicate
    where name_predicate is the parameter that contains the name of the dataset we entend to examine. So far this parameter can assume
