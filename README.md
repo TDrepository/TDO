@@ -33,8 +33,8 @@ For repeat the experiments you have to follow the following steps:
 		> python output_results.py results_dir
    where results_dir is the parameter that contains the path where the results you want to summarize are stored.
 
-GENERATING NEW DATASETs
- new syntethic dataset can be generated running the script "Main_dataset_generation.py", further details are discussed at the beginning of the script code.
+##GENERATING NEW DATASETs
+ - new syntethic dataset can be generated running the script "Main_dataset_generation.py", further details are discussed at the beginning of the script code.
 
 ##REFERENCES
 *“How Can Ontologies Give You Clue for Truth-Discovery? An Exploratory Study”*. Valentina Beretta, Sébastien Harispe, Sylvie Ranwez, Isabelle Mougenot. To be published in the proceedings of WIMS 2016.
