@@ -16,8 +16,9 @@ For repeat the experiments you have to follow the following steps:
  - make sure that "Pyhton 3.5" is installed on your computer and use it to run the .py files 
  
 INPUT files:
- - download the required file wims folder at ***** and put the folder in the folder named "data" of the project
- - download the datasets at *** and put the folder in the folder named "datasets" of the project
+ - download the datasets at https://dx.doi.org/10.6084/m9.figshare.3393706 and put the folder in the folder named "datasets" of the project
+ - download the required file wims folder at https://dx.doi.org/10.6084/m9.figshare.3393817 and put the folder in the folder named "data" of the project
+
  
 RUN the experiments
  - open the terminal and move in the "source_code" folder in the project
