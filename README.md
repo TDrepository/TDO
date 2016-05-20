@@ -15,7 +15,7 @@ For repeat the experiments you have to follow the following steps:
 
  - make sure that "Pyhton 3.5" is installed on your computer and use it to run the .py files 
  
-##INPUT files:
+##INPUTs:
  - download the datasets at https://dx.doi.org/10.6084/m9.figshare.3393706 and put the folder in the folder named "datasets" of the project
  - download the required file wims folder at https://dx.doi.org/10.6084/m9.figshare.3393817 and put the folder in the folder named "data" of the project
 
@@ -26,7 +26,7 @@ For repeat the experiments you have to follow the following steps:
 	> python Main_experiments.py name_predicate
    where name_predicate is the parameter that contains the name of the dataset we entend to examine. So far this parameter can assume
  
-##OUTPUT files:
+##OUTPUTs:
  - all the results file will be stored in "results" located in the "source_code" project folder.
  - a summary of the obtained results can be obtained using the function avaiable using output_analysis.py script. 
    You have to write the following command line
@@ -36,4 +36,4 @@ For repeat the experiments you have to follow the following steps:
 Dataset generation datails will be added.[**]
 
 ##REFERENCES
-“How Can Ontologies Give You Clue for Truth-Discovery? An Exploratory Study”. Valentina Beretta, Sébastien Harispe, Sylvie Ranwez, Isabelle Mougenot. To be published in the proceedings of WIMS 2016.
+*“How Can Ontologies Give You Clue for Truth-Discovery? An Exploratory Study”*. Valentina Beretta, Sébastien Harispe, Sylvie Ranwez, Isabelle Mougenot. To be published in the proceedings of WIMS 2016.
