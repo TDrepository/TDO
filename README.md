@@ -8,7 +8,7 @@ Co-authors:
  - Sylvie Ranwez
  - Isabelle Mougenot
 
-TDO library permits to (i) generate sythetic dataset; (ii) test the traditional and adapted Sums approach [....]
+TDO library permits to (i) generate sythetic datasets; (ii) test and compare the traditional and adapted Sums approach [....]
 
 
 For repeat the experiments you have to follow the following steps:
@@ -33,7 +33,8 @@ For repeat the experiments you have to follow the following steps:
 		> python output_results.py results_dir
    where results_dir is the parameter that contains the path where the results you want to summarize are stored.
 
-Dataset generation datails will be added.[**]
+GENERATING NEW DATASETs
+ new syntethic dataset can be generated running the script "Main_dataset_generation.py", further details are discussed at the beginning of the script code.
 
 ##REFERENCES
 *“How Can Ontologies Give You Clue for Truth-Discovery? An Exploratory Study”*. Valentina Beretta, Sébastien Harispe, Sylvie Ranwez, Isabelle Mougenot. To be published in the proceedings of WIMS 2016.
